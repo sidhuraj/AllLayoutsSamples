@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             mc:Ignorable="d"
+             x:Class="AllLayoutPractiseEx.MainPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Both">
+
+        <AbsoluteLayout>
+                    <!--<Label Text="I'm centered on iPhone 4 but no other device"
+                AbsoluteLayout.LayoutBounds="115,150,100,100" LineBreakMode="WordWrap"  />
+                    <Label Text="I'm bottom center on every device."
+                AbsoluteLayout.LayoutBounds="1.0,.5,280,400" AbsoluteLayout.LayoutFlags="PositionProportional" LineBreakMode="WordWrap"/>-->
+                <Button Text="log" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" AbsoluteLayout.LayoutBounds="1,1,.2,50" CornerRadius="50"/>
+
+                <Label Text="Akshay" BackgroundColor="Blue"   AbsoluteLayout.LayoutBounds="0.8,0.3,1,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
+
+
+        </AbsoluteLayout>
+        </ScrollView>
+            
+    </ContentPage.Content>
+</ContentPage>
